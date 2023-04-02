@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESE20C321
+D ESE20C321
+F https://industrial.panasonic.com/cdbs/www-data/pdf/ATU0000/ATU0000C5.pdf
+$ENDCMP
+# end doc library

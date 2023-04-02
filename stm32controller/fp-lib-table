@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "stm32controller")(type "KiCad")(uri "C:/Users/augus/Documents/stm32controller")(options "")(descr ""))
+  (lib (name "Switch_C&K_JS202011CQN")(type "KiCad")(uri "C:/Users/augus/Downloads/Switch_C&K_JS202011CQN")(options "")(descr ""))
+)

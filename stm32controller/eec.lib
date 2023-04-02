@@ -1,0 +1,59 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Panasonic ESE20C321
+#
+DEF ESE20C321 SW 0 40 Y Y 1 L N
+F0 "SW" 0 200 50 H V L CNN 
+F1 "ESE20C321" 0 300 50 H V L CNN 
+F2 "Panasonic-ESE20C321-*" 0 400 50 H I L CNN 
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/ATU0000/ATU0000C5.pdf" 0 500 50 H I L CNN 
+F4 "Yes" 0 600 50 H I L CNN "automotive"
+F5 "Grade 3" 0 700 50 H I L CNN "automotive grade"
+F6 "Switch" 0 800 50 H I L CNN "category"
+F7 "0.1A" 0 900 50 H I L CNN "contact current rating"
+F8 "Electromechanical" 0 1000 50 H I L CNN "device class L1"
+F9 "Switches" 0 1100 50 H I L CNN "device class L2"
+F10 "Pushbutton Switches" 0 1200 50 H I L CNN "device class L3"
+F11 "SWITCH PUSH SPST-NO 0.1A 14V" 0 1300 50 H I L CNN "digikey description"
+F12 "P11161S-ND" 0 1400 50 H I L CNN "digikey part number"
+F13 "30000Cycles" 0 1500 50 H I L CNN "electromechanical life"
+F14 "12.5mm" 0 1600 50 H I L CNN "height"
+F15 "Yes" 0 1700 50 H I L CNN "lead free"
+F16 "a3bb0996e0745f4f" 0 1800 50 H I L CNN "library id"
+F17 "Panasonic" 0 1900 50 H I L CNN "manufacturer"
+F18 "Through Hole" 0 2000 50 H I L CNN "mount"
+F19 "Switch Push Button ON OFF SPST Square Plunger 0.1A 14VDC Momentary Contact PC Pins Thru-Hole Bulk" 0 2100 50 H I L CNN "mouser description"
+F20 "667-ESE-20C321" 0 2200 50 H I L CNN "mouser part number"
+F21 "2N" 0 2300 50 H I L CNN "operating force"
+F22 "SW_7MM8_7MM9" 0 2400 50 H I L CNN "package"
+F23 "Yes" 0 2500 50 H I L CNN "rohs"
+F24 "+85°C" 0 2600 50 H I L CNN "temperature range high"
+F25 "-40°C" 0 2700 50 H I L CNN "temperature range low"
+F26 "SPST-NO" 0 2800 50 H I L CNN "throw configuration"
+F27 "14V" 0 2900 50 H I L CNN "voltage rating DC"
+DRAW
+X B B 100 0 100 R 40 0 1 1 P 
+X A A 700 0 100 L 40 0 1 1 P 
+X C C 700 -200 100 L 40 0 1 1 P 
+X D D 100 -200 100 R 40 0 1 1 P 
+C 330 0 20 1 1 0 N
+C 470 0 20 1 1 0 N
+P 2 1 1 0 310 50 490 50 N
+P 2 1 1 0 370 50 370 90 N
+P 2 1 1 0 370 90 430 90 N
+P 2 1 1 0 430 90 430 60 N
+P 2 1 1 0 310 0 240 0 N
+P 2 1 1 0 490 0 560 0 N
+P 2 1 1 0 200 0 300 0 N
+P 2 1 1 0 300 0 200 0 N
+P 2 1 1 0 200 0 200 -200 N
+P 2 1 1 0 600 0 600 0 N
+P 2 1 1 0 600 0 600 0 N
+P 2 1 1 0 600 0 500 0 N
+P 2 1 1 0 500 0 600 0 N
+P 2 1 1 0 600 0 600 -200 N
+ENDDRAW
+ENDDEF
+#
+# End Library
